@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.tab {
+  background-color: rgb(238, 238, 238);
+  width: 40rem;
+  height: 7rem;
+  border-radius: 13px;
+  border: none;
+}
+.tabf {
+  background-color: rgb(216, 216, 216);
+
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+.error {
+  color: #ff3b3baa;
+}
+.log {
+  border-color: red;
+  background-color: rgba(249, 24, 24, 0.571);
+}
+.success {
+  background-color: rgba(75, 255, 30, 0.688);
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.file-input {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.preview {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#image-preview img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+#video-preview video {
+  width: 100%;
+  max-height: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.user{
+  background-color: rgba(255, 170, 0, 0.356);
+  border-radius: 30px;
+  
+}
